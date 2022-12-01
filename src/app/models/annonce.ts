@@ -1,4 +1,5 @@
 export class Annonce {
+    _id:any;
     titre:any;
     poste:any;
     type_emploi:any;
@@ -7,4 +8,5 @@ export class Annonce {
     langue:any;
     description:any;
     mots_cles:any;
+    date:any;
 }

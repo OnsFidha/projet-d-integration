@@ -24,11 +24,14 @@ export class PostComponent implements OnInit {
       niveau:[''],
       langue:[''],
       description:[''],
-      experience:['']
+      experience:[''],
+      date:['']
     })
   }
 
   insertData(){
+    this.annonce.date=new Date();
+    console.log(this.annonce.date)
     this.annonceSer.addAnnonce(this.annonce).subscribe(data=>console.log(data));
   
    

@@ -19,9 +19,11 @@
             <td>{{cond.email}}</td>
             <td>{{cond.linkedIn}}</td>
             <td><a href="#">{{cond.file}}</a></td>
-            <td><button class="btn btn-danger " (click)="Accepter(cond)">Accepter</button>
+            <td><button class="btn btn-success " style="margin: 15px;" (click)="Accepter(cond)">Accepter</button>
               <button class="btn btn-danger " (click)="refuser(cond)">refuser</button></td>
+            
           </tr>
         </tbody>
-      </table>
+      </table> <div class="col-md-12 text-center">
+      <button class=" btn btn-info ">Filtrer</button></div>
     </div>
