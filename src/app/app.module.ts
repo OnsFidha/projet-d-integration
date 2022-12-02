@@ -20,6 +20,7 @@ import { SignupComponent } from './admin/dashboard/signup/signup.component';
 import { GestionAnnonceComponent } from './admin/gestion-annonce/gestion-annonce.component';
 import { ListAnnonceComponent } from './list-annonce/list-annonce.component';
 import { ModifierAnnonceComponent } from './modifier-annonce/modifier-annonce.component';
+import { RhComponent } from './rh/rh.component';
 
 
 
@@ -38,6 +39,7 @@ import { ModifierAnnonceComponent } from './modifier-annonce/modifier-annonce.co
     GestionAnnonceComponent,
     ListAnnonceComponent,
     ModifierAnnonceComponent,
+    RhComponent,
    
    
   ],

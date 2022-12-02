@@ -24,7 +24,7 @@ export class AnnonceService {
       return this.http.get<Annonce[]>(URL+"/"+ id);
       }
       getAnnonceById(id:any){
-        return this.http.get<Annonce>(URL+ id);
+        return this.http.get<Annonce>(URL+"/"+ id);
         }
 
      

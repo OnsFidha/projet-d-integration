@@ -37,8 +37,7 @@
                                     <td>{{t.niveau}}</td>
                                     <td>
                                       <button class="btn btn-success " 
-                                      [routerLink]="['/update_annonce',t._id]"
-                                      >modifier</button>
+                                        [routerLink]="['/update_annonce',t._id]">modifier</button>
                                       <button class="btn btn-danger " (click)="delete(t.id)">supprimer</button>
                                       <button class="btn btn-primary " routerLink="/profils">consulter candidat</button>
                                     </td>
