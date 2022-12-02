@@ -21,6 +21,7 @@ import { GestionAnnonceComponent } from './admin/gestion-annonce/gestion-annonce
 import { ListAnnonceComponent } from './list-annonce/list-annonce.component';
 import { ModifierAnnonceComponent } from './modifier-annonce/modifier-annonce.component';
 import { RhComponent } from './rh/rh.component';
+import { RHComponent } from './admin/rh/rh.component';
 
 
 
@@ -40,6 +41,7 @@ import { RhComponent } from './rh/rh.component';
     ListAnnonceComponent,
     ModifierAnnonceComponent,
     RhComponent,
+    RHComponent,
    
    
   ],
